@@ -14,7 +14,7 @@ body {
     height: 500px;
     background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
-    box-shadow: 0 20px 0 15px hsla(216, 51%, 16%, 0.236);
+    box-shadow: 0 20px 0 15px hsla(217, 78%, 9%, 0.653);
     margin: auto;
 }
 
@@ -25,7 +25,6 @@ body {
 
 .image {
     width: 250px;
-    min-width: 250px;
     border-radius: 10px;
 }
 
@@ -79,7 +78,8 @@ hr {
 }
 
 .prof-text {
-    margin-top: 4px;
+    color: rgba(255, 255, 255, 0.348);
+    letter-spacing: .03rem;
+    margin-top: 4.7px;
     margin-left: 15px;
-    color: rgba(255, 255, 255, 0.348)
 }
