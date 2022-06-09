@@ -8,15 +8,18 @@ body {
     background-color: hsl(217, 54%, 11%);
 }
 
+main {
+    margin: auto;
+}
+
 #container {
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 500px;
+    height: 525px;
     background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
     box-shadow: 0 20px 0 15px hsla(217, 78%, 9%, 0.653);
-    margin: auto;
 }
 
 .header {
@@ -67,15 +70,15 @@ hr {
     color: rgba(255, 255, 255, 0.348);
 }
 
+.foot {
+    padding-top: 10px;
+    display: flex;
+}
+
 .prof {
     width: 30px;
     border: 1px solid white;
     border-radius: 50%;
-}
-
-.foot {
-    padding-top: 10px;
-    display: flex;
 }
 
 .prof-text {
