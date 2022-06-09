@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body {
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+    background-color: hsl(217, 54%, 11%);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    box-shadow: 0 20px 0 15px hsla(216, 51%, 16%, 0.236);
+    margin: auto;
+}
+
+.header {
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.image {
+    width: 250px;
+    min-width: 250px;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 1px 20px;
+}
+
+.white {
+    color: hsl(0, 0%, 100%);
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+hr {
+    height: 2px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+
+.mid-p {
+    color: rgba(255, 255, 255, 0.348);
+    font-size: .9rem;
+    padding-bottom: 10px;
+}
+
+.bottom-p {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.left {
+    color: cyan;
+}
+
+.right {
+    color: rgba(255, 255, 255, 0.348);
+}
+
+.prof {
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.foot {
+    padding-top: 10px;
+    display: flex;
+}
+
+.prof-text {
+    margin-top: 4px;
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 0.348)
+}
